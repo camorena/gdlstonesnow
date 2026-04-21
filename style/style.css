@@ -3527,10 +3527,10 @@ span.number.sign {
 	margin-top: 8px;
 	margin-bottom: -29px;
 	margin-left: 16px;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 11px;
 	line-height: 21px;
-	color: #999;
+	color: #333;
 	letter-spacing: 2px;
 	z-index: 2;
 }
@@ -3560,25 +3560,30 @@ span.number.sign {
 
 .comment-form .hint,
 .contact-form .hint {
-	color: #A4AAB3;
+	color: #6B7280;
 }
 
 ::-webkit-input-placeholder {
-	color: #A4AAB3;
+	color: #6B7280;
 }
 
 :-moz-placeholder {
-	color: #A4AAB3;
+	color: #6B7280;
 	opacity: 1;
 }
 
 ::-moz-placeholder {
-	color: #A4AAB3;
+	color: #6B7280;
 	opacity: 1;
 }
 
 :-ms-input-placeholder {
-	color: #A4AAB3;
+	color: #6B7280;
+}
+
+::placeholder {
+	color: #6B7280;
+	opacity: 1;
 }
 
 /* --- tooltip --- */
